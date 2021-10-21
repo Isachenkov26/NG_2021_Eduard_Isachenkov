@@ -4,12 +4,13 @@ using namespace std;
 
 int main()
 {
-    cout << "      __...--~~~~~-._   _.-~~~~~--...__" << endl;
-    cout << "    //               `V'               \\"  << endl;
-    cout << "   //                 |                 \\" << endl;
-    cout << "  //__...--~~~~~~-._  |  _.-~~~~~~--...__\\" << endl;
-    cout << "  //__.....----~~~~._\ | /_.~~~~----.....__\\" << endl;
-    cout << " ====================\\|//====================" << endl;
-    cout << "                dwb `---`" << endl;
+    cout << "      _ _ "  << endl;
+    cout << " .-. | | |" << endl;
+    cout << " |M|_|A|N|" << endl;
+    cout << " |A|a|.|.|" << endl;
+    cout << " |T|r| | |" << endl;
+    cout << " |H|t|M|Z|" << endl;
+    cout << " | |!| | |" << endl;
+    cout << " ========="<< endl;
     return 0;
 }
