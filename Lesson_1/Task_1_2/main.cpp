@@ -4,13 +4,12 @@ using namespace std;
 
 int main()
 {
-    cout << "      _ _ "  << endl;
-    cout << " .-. | | |" << endl;
-    cout << " |M|_|A|N|" << endl;
-    cout << " |A|a|.|.|" << endl;
-    cout << " |T|r| | |" << endl;
-    cout << " |H|t|M|Z|" << endl;
-    cout << " | |!| | |" << endl;
-    cout << " ========="<< endl;
+    printf("      __...--~~~~~-._   _.-~~~~~--...__\n");
+    printf("     /               `V'               \\\n");
+    printf("    /                 |                 \\\n");
+    printf("   /__...--~~~~~~-._  |  _.-~~~~~~--...__\\\n");
+    printf("  /__.....----~~~~._/ | /_.~~~~----.....__\\\n");
+    printf("====================//|//====================\n");
+    printf("                    `---`\n");
     return 0;
 }
