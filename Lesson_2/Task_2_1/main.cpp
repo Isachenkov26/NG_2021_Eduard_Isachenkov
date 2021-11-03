@@ -12,8 +12,4 @@ int main()
     number /= 10;
     }
     cout << "Sum =" << sum << endl;
-
-
-
-
 }
