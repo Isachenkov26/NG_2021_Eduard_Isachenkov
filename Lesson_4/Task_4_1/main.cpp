@@ -1,18 +1,19 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    char characters[50], jdi;
+    string characters;
     int number;
     cout << "Write different characters (.,!?;:%^*|/&)" << endl;
-    cin >> characters;
-    for (int i = 0; i < 50; i++){
+    getline (cin, characters);
+    for (int i = 0; i < characters.length(); i++){
             if (characters[i] == '.' || characters[i] == ',' || characters[i] == '!' || characters[i] == '?' ||
                 characters[i] == ';' || characters[i] == ':' || characters[i] == '%' || characters[i] == '*' ||
                 characters[i] == '|' || characters[i] == '/' || characters[i] == '&' || characters[i] == '^'){
-                    number++;
+                number++;
             }
     }
     cout << "Characters in line: " << number;
