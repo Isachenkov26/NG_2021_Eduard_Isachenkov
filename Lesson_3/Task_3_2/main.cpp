@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//Removed features
+
 int main()
 {
     char Writing;
