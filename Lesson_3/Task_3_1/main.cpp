@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int arraying[10], newarraying[10], number;
+    int arraying[10], newarraying[10], number; // Added second array
     cout << "Enter your numbers in the array" << endl;
     for (int i=0; i<10; i++){
         cin >> arraying[i];
